@@ -1,7 +1,7 @@
 import logging
-import requests
 from aiogram import Bot, Dispatcher, executor, types
 from config import TELEGRAM_BOT_TOKEN, FOOTBALL_API_KEY, TENNIS_API_KEY
+import requests
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
